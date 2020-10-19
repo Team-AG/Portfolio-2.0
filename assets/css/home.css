@@ -1,0 +1,68 @@
+/* Home page */
+
+.home {
+    display: flex;
+    background: url("/assets/image/home-background.jpg ") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu',
+        sans-serif;
+}
+
+
+.home .max-width {
+    margin: auto 0 600px 20px;
+    padding-left: 3%;
+}
+
+.home .home-content .text-1 {
+    font-size: 33px;
+    margin-left: 210px;
+}
+
+.home .home-content .text-2 {
+    font-size: 90px;
+    font-weight: 600;
+    margin-left: -3px;
+    margin-top: 12px;
+}
+
+.home .home-content .text-3 {
+    font-size: 33px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.home .home-content .text-3 span {
+    text-align: center;
+    font-size: 36px;
+    color: rgb(0, 255, 242);
+    font-weight: 500;
+
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: rgba(0, 255, 242, 0.637);
+    color: white;
+    font-size: 25px;
+    margin-top: 12px;
+    margin-left: 250px;
+    padding: 12px 12px 12px 12px;
+    border-radius: 12px;
+    border: 3px solid rgb(0, 255, 242);
+    transition: 0.3s ease;
+}
+
+.home .home-content a:hover {
+    background: rgba(255, 255, 255, 0.747);
+    color: rgb(0, 255, 242);
+    border: none;
+    font-weight: bolder;
+
+}

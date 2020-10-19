@@ -1,0 +1,91 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+/* NAVBAR */
+
+
+.navbar {
+    /* Safari */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100;
+    background: rgba(255, 255, 255, 0);
+    padding: 30px 0;
+    font-family: 'Ubuntu',
+        sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    padding: 30px 0;
+    background: rgba(0, 255, 242, 0.356);
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: rgb(0, 255, 242);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+
+.navbar.sticky .logo a {
+    color: rgb(126, 126, 126);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+
+.navbar .logo a span {
+    color: rgb(126, 126, 126);
+
+}
+
+.navbar.sticky .logo a span {
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: rgb(0, 255, 242);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: rgba(126, 126, 126, 0.604);
+
+
+}
+
+.navbar.sticky .menu li a {
+    color: rgb(126, 126, 126);
+}
+
+.navbar.sticky .menu li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.menu-btn {
+    color: rgb(126, 126, 126);
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}

@@ -1,0 +1,18 @@
+/* RESPONSIVE MEDIA QUERY */
+/* THIS ALLOWS TO CHANGE THE DISPLAY OF YOUR PAGE BASE ON DISPLAY SIZED */
+/* EXAMPLE ARE FROM PC TO TABLET TO CELLPHONE */
+
+@media (max-width: 952px) {
+    .max-width {
+        padding: 0 23px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 32px;
+
+    }
+}
